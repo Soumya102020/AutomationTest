@@ -1,0 +1,15 @@
+export const tc1 = {
+  mytitle: 'My Store',
+  email: 'imsoumyagupta@gmail.com',
+  fname: 'Soumya',
+  lname: 'Gupta',
+  password: 'Automation@123',
+  fn: 'Sona',
+  ln: 'Gup',
+  company: "Capegimini",
+  adress: 'Balagere road',
+  city: 'BANGALORE',
+  postcode: '00000',
+  mobile: '9342147127',
+  address2: 'My address',
+}
