@@ -12,4 +12,7 @@ export const tc1 = {
   postcode: '00000',
   mobile: '9342147127',
   address2: 'My address',
+ t1: 'My Store',
+ tc2:'My account - My Store',
+ addCartUrl:'http://automationpractice.com/index.php?id_product=3&controller=product',
 }
