@@ -90,14 +90,18 @@ describe('precondition', function () {
             assert.strictEqual(title2, 'Printed Dress - My Store');
             browser.url(tc1.orderCartUrl)
             console.log('Proceed to checkout clicked!!!')
-            browser.click('[href="http://automationpractice.com/index.php?controller=order&step=1"]');
-            $(' //*[@id="center_column"]/form/p/button/span').click();
-            $('//*[@id="form"]/p/button/span').click();
-            $("#cgv").click();
+            $('//*[@id="center_column"]/p[2]/a[1]/span').click()
+            console.log('Summary proceed to  checkout clicked!!!')
+            $('//*[@id="center_column"]/form/p/button/span').click();
+            console.log('AddressSummary proceed to  checkout clicked!!!')
+            $('//*[@id="cgv"]').click();
+            console.log('checkbox clicked!!!')
             $('//*[@id="form"]/p/button/span').click();
             //Validate the product details
-            const link = $('*=color-orange')
-            console.log(link.getText())
+            const link1 = $('*=Orange')
+            console.log(link1.getText())
+            console.log('Sucess!!!')
+
         });
     });
 });

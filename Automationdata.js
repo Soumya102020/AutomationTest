@@ -14,5 +14,6 @@ export const tc1 = {
   address2: 'My address',
  t1: 'My Store',
  tc2:'My account - My Store',
- addCartUrl:'http://automationpractice.com/index.php?id_product=3&controller=product',
+ addCartUrl:"http://automationpractice.com/index.php?id_product=3&controller=product",
+ orderCartUrl:"http://automationpractice.com/index.php?controller=order",
 }
